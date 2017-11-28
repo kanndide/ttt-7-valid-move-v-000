@@ -1,5 +1,5 @@
 # code your #valid_move? method here
-require_relative "./lib/position_taken.rb"
+require_relative "../lib/position_taken.rb"
 
 def valid_move? (position_taken)
   if position_taken == false
