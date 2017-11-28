@@ -1,7 +1,7 @@
 # code your #valid_move? method here
 require_relative "../lib/position_taken.rb"
 
-def valid_move? (position_taken?)
+def valid_move?(position_taken?)
   if position_taken == false
     true
   elsif postion_taken == true
