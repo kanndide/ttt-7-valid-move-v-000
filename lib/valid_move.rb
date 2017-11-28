@@ -19,5 +19,5 @@ def position_taken?(board, index)
 end
 
 board = ["", "", "", "", "", "", "", "", "", ]
-position_taken?(15)
+position_taken?("X", 4)
 valid_move?
