@@ -5,6 +5,10 @@ def valid_move?(board, index)
     true
   elsif position_taken?(board, index) == true
     false
+  elsif index.between?(0, 8)
+    true
+  else
+    false
   end
 end
 
@@ -13,7 +17,7 @@ end
 def position_taken?(board, index)
   if board[index] == "" || board[index] == " " || board[index] == nil
     false
-  elsif board[index] == "X" || board[index] ==  "O" || board[index] != (0..8)
+  elsif board[index] == "X" || board[index] ==  "O"
     true
   end
 end
