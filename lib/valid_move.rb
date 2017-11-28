@@ -1,5 +1,4 @@
 # code your #valid_move? method here
-require_relative "../lib/position_taken.rb"
 
 def valid_move?
   if position_taken? == false
@@ -9,7 +8,12 @@ def valid_move?
   end
 end
 
-position_taken?(15)
-valid_move?
 
 # re-define your #position_taken? method here, so that you can use it in the #valid_move? method above.
+def position_taken?(board, index)
+  if board[index] == "" || board[index] == " " || board[index] == nil
+    false
+  elsif board[index] == "X" || board[index] ==  "O"
+    true
+  end
+end
