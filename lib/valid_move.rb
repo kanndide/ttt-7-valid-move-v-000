@@ -10,6 +10,6 @@ def valid_move? (position_taken)
 end
 
 
-valid_move
+valid_move?
 
 # re-define your #position_taken? method here, so that you can use it in the #valid_move? method above.
