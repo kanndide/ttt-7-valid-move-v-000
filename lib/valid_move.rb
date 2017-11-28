@@ -6,6 +6,7 @@ def valid_move? (position_taken)
     true
   elsif postion_taken == true
     false
+  end
 end
 
 position_taken(15)
