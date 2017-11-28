@@ -17,7 +17,3 @@ def position_taken?(board, index)
     true
   end
 end
-
-board = ["", "", "", "", "", "", "", "", "", ]
-position_taken?("X", 4)
-valid_move?
